@@ -1,0 +1,3 @@
+DEBUG [2018-09-07 23:05:48] g:\virtualevn\bktest\lib\site-packages\django\db\backends\utils.py 89 execute 10344 1452 
+ 	 (0.010) SET SQL_AUTO_IS_NULL = 0; args=None 
+
