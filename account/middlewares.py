@@ -20,7 +20,7 @@ from account.accounts import Account
 class LoginMiddleware(object):
     """Login middleware."""
 
-    def process_view(self, request, view, args, kwargs):
+    def process_view(self, request, view, *args, **kwargs):
         """process_view."""
         if getattr(view, 'login_exempt', False):
             return None
